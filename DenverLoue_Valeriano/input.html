@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>Input</head>
+
+<body>
+    <form>
+    <p><b>Personal Information</b></p>
+        <label for="Full name">Full name: </label>
+        <input type="text" id="Full name" name="Full name" maxlength="50">
+
+    <br>
+
+        <label for="email">Email Address: </label>
+        <input type="email" id="email" name="email" maxlength="50">        
+
+    <br>
+    
+        <label for="date">Date of Birth: </label>
+        <input type="date" id="date" name="date" min="1900-01-01" max="2025-12-31">
+
+    <br>
+    <hr>
+
+    <p><b>Account Details</b></p>
+        <label for="Username">Username: </label>
+        <input type="text" id="Username" name="Username" maxlength="50">
+
+    <br>
+    
+        <label for="Password">Password: </label>
+        <input type="Password" id="Password" name="Password" maxlength="50">
+
+    <br>
+    <hr>
+
+        <label for="Subscription Plan">Subscription Plan: </label>
+        <select name="" id="Plan">Plan
+
+        <option value="Free">Free</option>
+        <option value="Online">Paymaya</option>
+        <option value="Online">Gcash</option>
+        <option value="Online">Credit</option>
+        </select>
+
+    <br>
+        
+        <p>Notification Preferences:</p>
+        <input type="checkbox" id="box">
+        <label for="box">Email</label>
+
+        <input type="checkbox" id="box">
+        <label for="box">SMS</label>
+
+        <input type="checkbox" id="box">
+        <label for="box">Push Notification</label>
+
+    <hr>
+    
+    <p><b>Additional Information</b></p>
+        <label for="comment">Brief Bio: </label>
+        <textarea name="comment" id="cmmment" rows="10" cols="40"></textarea>
+
+    <p>How did you hear about us?</p>
+        <input type="radio" id="basic" value="social" name="basic">
+        <label for="basic">Social Media</label>
+
+        <input type="radio" id="basic" value="social" name="basic">
+        <label for="basic">Friend</label>
+
+        <input type="radio" id="basic" value="social" name="basic">
+        <label for="basic">Search Engine</label>
+
+        <input type="radio" id="basic" value="social" name="basic">
+        <label for="basic">Other</label>
+
+   <hr> 
+        
+        <label for=""><button>Clear Form</button></label>
+        <label for=""><button>Register</button></label>
+    </form>
+</body>
+</html>
